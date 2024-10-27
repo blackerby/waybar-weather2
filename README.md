@@ -17,7 +17,7 @@ To integrate the weather widget with Waybar, create a custom module:
 
 ```json
 "custom/weather": {
-  "exec": "~/.config/waybar/weather.py waybar",
+  "exec": "~/.config/waybar/weather.py",
   "restart-interval": 900,
   "return-type": "json",
 },
@@ -34,4 +34,4 @@ The colors used within the widget and tooltip may be changed in the
 
 ## Acknowledgment
 
-Many thanks to [thetek](https://git.tjdev.de/thetek) for writing a clear and comprehensible script, which served as a fantastic starting point for this project. The colorization via pango markup and ANSI escape codes and the human-readable wind direction code, -- that is, the good looks of this project -- are all taken from the original script linked to above.
+Many thanks to [thetek](https://git.tjdev.de/thetek) for writing a clear and comprehensible script, which served as a fantastic starting point for this project. The colorization via pango markup and ANSI escape codes and the human-readable wind direction code -- that is, the good looks of this project -- are all taken from the original script linked to above. The same is true of much of the documentation.
